@@ -1,7 +1,7 @@
 import React from 'react';
 import LoginRouter from './routers/LoginRouter';
 
-const App: React.FC = () => {
+const App = () => {
   return (
         <LoginRouter />
   );
