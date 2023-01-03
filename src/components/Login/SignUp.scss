@@ -1,0 +1,24 @@
+.sign-up {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sign-up__content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+}
+
+.sign-up .sign-up__header {
+    height: 70px;
+    text-align: center;
+}
+
+.sign-up .sign-up__footer_sign_in {
+    text-align: right;
+    margin-top: 10px;
+}

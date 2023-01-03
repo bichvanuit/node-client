@@ -1,0 +1,37 @@
+@import '~antd/dist/antd.css';
+
+.login { 
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+    .login__image {
+        background-image: url("https://source.unsplash.com/random");
+        background-size: cover;
+    }
+
+    .login__content { 
+        margin: 100px 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+
+    .login__content_header {
+        height: 50px;
+        text-align: center;
+    }
+
+    .login__content_footer {
+        margin-top: 15px;
+    }
+
+    .login__content_footer_signup {
+        margin-top: 10px;
+    }
+
+    .login__content_footer_signup_signup {
+        text-align: right;
+    }
+} 

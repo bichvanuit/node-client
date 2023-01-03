@@ -1,0 +1,27 @@
+@import '~antd/dist/antd.css';
+@import "/src/styles.scss";
+
+.main-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+    .main-page__content {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        margin-top: 50px;
+        background-color: #ffffff;
+
+        .main-page__content_header {
+            background-color: #ffffff;
+            padding: 0px;
+        }
+
+        .main-page__content_body {
+            width: 100%;
+            height: 620px;
+            position: relative;
+        }
+    }
+}

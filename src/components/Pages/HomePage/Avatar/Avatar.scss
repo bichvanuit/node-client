@@ -1,0 +1,23 @@
+.avatar {
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+
+    .avatar__image {
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+    }
+
+    .avatar__username {
+        padding-top: 10px;
+        text-align: center;
+
+        span {
+            font-family: "NVNBrushwellRegular";
+            font-size: 30px;
+        }
+    }
+}

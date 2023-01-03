@@ -1,0 +1,40 @@
+input {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    width: 300px;
+  }
+  
+  .no-suggestions {
+    color: #999;
+    padding: 0.5rem;
+  }
+  
+  .suggestions {
+    border: 1px solid #999;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: 95%;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 999;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .suggestions li {
+    padding: 0.5rem;
+  }
+  
+  .suggestion-active,
+  .suggestions div:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+  }
+  
+  .suggestions li:not(:last-of-type) {
+    border-bottom: 1px solid #999;
+  }
+  
