@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 
 const { Meta } = Card;
 const Img = styled.img`

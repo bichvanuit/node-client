@@ -2,7 +2,7 @@ import { Carousel } from 'antd';
 import React from 'react';
 
 import SliderContent from './SliderContent';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 
 import { Sliders as sliders } from '../../../../json/MoocJson';
 
