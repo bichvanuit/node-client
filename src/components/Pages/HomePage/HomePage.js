@@ -2,7 +2,6 @@ import React from 'react';
 import 'antd/dist/antd.min.css';
 
 import Slide from './Slider/Slider';
-import Avatar from './Avatar/Avatar';
 import ListDestinations from '../../PageItems/ListDestinations/ListDestinations';
 import ListPosts from '../../PageItems/ListPosts/ListPosts';
 
