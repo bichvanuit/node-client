@@ -1,0 +1,3 @@
+[submodule "docker-node-client"] 
+  path = docker-node-client 
+  url = https://github.com/bichvanuit/node-client.git
